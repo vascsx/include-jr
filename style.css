@@ -192,13 +192,14 @@ nav .navlinks li a {
 .habilidades .container-text {
     color: #d5d5d5;
     padding-top: 40px;
-    padding-left: 70px;
+    padding-left: 60px;
 }
 
 .habilidades .container-text h2 {
     font-weight: bold;
-    padding: 20px;
-
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
 }
 
 .habilidades video {
@@ -213,21 +214,92 @@ nav .navlinks li a {
 
 
 /* button  */
-.container-text button {
-    background: gray;
-    border: none;
-    padding: 0;
-    margin: 0;
-    margin-right: 10px; /* Adicione margem direita para criar espaço entre os botões */
-    width: 50px;
-    display: inline-block; /* Faz o botão se comportar como um bloco em linha */
-    text-align: center; /* Alinha o conteúdo (imagem) ao centro do botão */
+.container-text {
+    margin-right: 80px; /* Adicione margem à direita para afastar os botões um pouco para a direita */
 }
+
+.container-text button {
+    border: 2px solid #007ced;
+    padding: 0;
+    margin: 0 8px; /* Adicione margem para criar espaço entre os botões */
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    background: linear-gradient(to bottom right, gray, #333);
+    background-size: 200% 200%;
+    transition: background-position 0.3s ease, border 0.3s ease;
+    color: #fff;
+    cursor: pointer;
+}
+
 .container-text button:last-child {
-    margin-right: 0; /* Remove a margem direita do último botão para evitar espaço extra */
+    margin-right: 0;
 }
 
 .container-text button img {
-    max-width: 100%; /* Garante que a imagem se ajuste ao tamanho do botão */
-    height: 42px;/* Mantém a proporção da imagem */
+    max-width: 100%;
+    height: 42px;
 }
+
+.container-text button:hover {
+    background-position: 100% 100%;
+    border: 2px solid #007ced;
+}
+
+.habilidades .text-habilidades {
+    font-size: 1rem;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+
+
+/* ultim-sec */
+
+
+
+.text-play {
+    text-align: center;
+}
+
+.video-aspas {
+    text-align: left;
+    padding: 30px;
+}
+
+
+
+/* agradecimentos */
+
+/* .agradecimentos {
+
+} */ 
+
+
+.agradecimentos {
+    font-size: 0.825rem;
+    background-color: #313335;
+
+}
+
+.agradecimentos p {
+    
+}
+
+
+.ult-sec {
+    background-color: #1c1f20;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.icons {
+    text-align: right; 
+    padding-right: 120px;/* Alinha os ícones à direita */
+}
+
+.fa-brands {
+    font-size: 24px; /* Aumenta o tamanho dos ícones para 24 pixels */
+    margin-right: 10px; /* Adiciona um espaço à direita dos ícones */
+}
+
+
