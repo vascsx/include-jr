@@ -80,17 +80,14 @@ nav .togglebtn span {
     transition-property: transform, opacity;
 }
 
-nav .navlinks {
-    list-style-type: none;
-}
-nav .navlinks li {
+
+.navlinks  {
     display: inline-block;
+    word-spacing: 20px;
+    color: #e5e5e5;
 }
 
-nav .navlinks li a {
-    color: #e5e5e5;
-    margin-right: 2.5rem;
-}
+
 
 .container {
     display: flex;
@@ -107,6 +104,7 @@ nav .navlinks li a {
     border: 15px solid #cfcfcd;
     box-shadow: 5px 7px 25px rgba(0,0,0,0.5);
 }
+
 
 .hero-pic img {
     height: 115%;
@@ -199,7 +197,7 @@ nav .navlinks li a {
     font-weight: bold;
     display: flex;
     flex-direction: column;
-    padding: 25px;
+    padding: 25px 0;
 }
 
 .habilidades video {
@@ -254,19 +252,6 @@ nav .navlinks li a {
 
 
 
-/* ultim-sec */
-
-
-
-.text-play {
-    text-align: center;
-}
-
-.video-aspas {
-    text-align: left;
-    padding: 30px;
-}
-
 
 
 /* agradecimentos */
@@ -282,24 +267,29 @@ nav .navlinks li a {
 
 }
 
-.agradecimentos p {
-    
-}
 
+.agradecimentos p{
+    font-size: 0.8rem;
+    padding-top: 20px;
+}
 
 .ult-sec {
     background-color: #1c1f20;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
 }
+
+
+
 .icons {
     text-align: right; 
-    padding-right: 120px;/* Alinha os ícones à direita */
+
 }
 
 .fa-brands {
     font-size: 24px; /* Aumenta o tamanho dos ícones para 24 pixels */
     margin-right: 10px; /* Adiciona um espaço à direita dos ícones */
 }
+
 
 
