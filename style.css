@@ -87,6 +87,13 @@ nav .togglebtn span {
     color: #e5e5e5;
 }
 
+.navlinks a{
+    color: #cfcfcd;
+}
+
+.navlinks a:hover {
+    color: #007ced;
+}
 
 
 .container {
@@ -132,7 +139,8 @@ nav .togglebtn span {
 
 .hero-text h5 {
     color: #e5e5e5;
-    font-size: 14px;
+    font-size: 1.8rem;
+    font-weight: 800;
 
 }.hero-text h5 span{
     color: #007ced;
@@ -291,4 +299,5 @@ nav .togglebtn span {
 .right-content .icons a:hover {
     color: #007bff; /* Mudar a cor ao passar o mouse */
 }
+
 
