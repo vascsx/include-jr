@@ -256,40 +256,39 @@ nav .togglebtn span {
 
 /* agradecimentos */
 
-/* .agradecimentos {
-
-} */ 
-
-
 .agradecimentos {
-    font-size: 0.825rem;
-    background-color: #313335;
+    background-color: #333; 
+    color: white; 
+    padding: 20px; 
+}
 
+.footer-content {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 
-.agradecimentos p{
-    font-size: 0.8rem;
-    padding-top: 20px;
-}
-
-.ult-sec {
-    background-color: #1c1f20;
-    display: flex;
-    flex-direction: column;
+.left-content p {
+    font-size: 1rem; 
+    margin: 0; 
 }
 
 
-
-.icons {
-    text-align: right; 
-
-}
-
-.fa-brands {
-    font-size: 24px; /* Aumenta o tamanho dos ícones para 24 pixels */
-    margin-right: 10px; /* Adiciona um espaço à direita dos ícones */
+.right-content .icons {
+    display: flex; 
 }
 
 
+.right-content .icons a {
+    color: white; 
+    margin-left: 10px; 
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+/* Estilizar os links dos ícones quando hover (passar o mouse por cima) */
+.right-content .icons a:hover {
+    color: #007bff; /* Mudar a cor ao passar o mouse */
+}
 
