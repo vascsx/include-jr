@@ -5,7 +5,7 @@ const image2Link = document.getElementById('image2Link');
 const image3Link = document.getElementById('image3Link');
 const image4Link = document.getElementById('image4Link');
 
-const videos = ['./video/impulso_jett.mp4', './video/dash-jett.mp4', './video/smoke-jett.mp4', './video/ult-jett.mp4'];
+const videos = ['./video/impulso-jett.mp4', './video/dash-jett.mp4', './video/smoke-jett.mp4', './video/ult-jett.mp4'];
 const texts = [
     "Q - CORRENTE ASCENDENTE\n\nINSTANTANEAMENTE impele Jett\nbem alto no ar.",
     "E - BRISA DE IMPULSO\n\nATIVE para preparar uma rajada\nde vento por tempo limitado.\nREPITA a habilidade para lançar\nJett na direção do movimento\natual dela. Se estiver parada, Jett\nserá lançada para a frente. A\ncarga de Brisa de Impulso é\nredefinida a cada dois abates.",
